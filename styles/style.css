@@ -1,0 +1,316 @@
+.conteiner-fluid{
+	height: 100%;
+}
+.row{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.top-content{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: no-repeat  url(../img/Layer96.png);
+	background-size: cover;
+}
+.logo1{
+	display: block;
+	background: #FFFFFF;
+	width: 67px;
+	height: 67px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+.logo2{
+	background: #006699;
+	width: 67px;
+	height: 67px;
+	margin-left: auto;
+	margin-right: 44%;
+	margin-top: -74px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+.logo2 p{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+}
+.head-menu{
+	display: inline-flex;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+}
+.head-menu li{
+	margin-left: 6%;
+	list-style-type: none;
+	font-size: 1.3em;
+	color: #FFFFFF;
+}
+.ikon i {
+	display: inline-flex;
+	margin-left: 5%;
+	margin-top: 18%;
+	text-align: center;
+}
+.text-logo{
+	display: block;
+	width: 100%;
+	margin-top: 15%;
+}
+.text-logo h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 5em;
+}
+.text-slogo{
+	display: block;
+	width: 100%;
+}
+.text-slogo h2{
+	color: #006699;
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: 0.2em;
+}
+.circle-down{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 10%;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 10%; 
+}
+.two-content{
+	display: inline-block;
+	background-color: #006699;
+	width: 100%;
+	height: 100%;
+}
+.two-logo{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.two-logo h3{
+	font-size: 15em;
+	color: #3c8daf;
+}
+.two-slogo{
+	width: 100%;
+	text-align: center;
+	margin-top: -10%;
+	margin-bottom: 10%;
+}
+.two-slogo h4{
+	color: #FFFFFF;
+	font-size: 3em;
+}
+.radius{
+	margin-left: 4%;
+	width: 10em;
+	height: 10em;
+	background-color: #3c8daf;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 11em;
+	text-align: center;
+	margin-bottom: 70%;
+}
+.radius h6{
+	line-height: 1.5;
+	font-size: 1.3em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.radius p{
+	line-height: 1;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.three-content{
+	display: inline-block;
+	background-color: #006699;
+	width: 100%;
+	height: 100%;
+}
+.three-logo{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.three-logo h3{
+	font-size: 15em;
+	color: #cccccc;
+	opacity: 2;
+}
+.three-slogo{
+	width: 100%;
+	text-align: center;
+	margin-top: -10%;
+}
+.three-slogo h4{
+	color: #000000;
+	font-size: 3em;
+}
+.three-plogo{
+	margin-top: 5%;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.three-plogo h4{
+	font-size: 2em;
+}
+.blog img{
+	margin-bottom: 2%;
+}
+.blog h6{
+	line-height: 1.5;
+	font-size: 1.3em;
+	color: #006699;
+	text-align: center;
+}
+.blog p{
+	line-height: 1.5;
+	font-size: 0.9em;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 20%;
+}
+.bottom-content{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: no-repeat  url(../img/Layer97.png);
+	background-size: cover;
+}
+.form input{
+	width: 100%;
+	background: transparent;
+	margin-bottom: 5%;
+	color: #FFFFFF;
+}
+.Message input{
+	width: 100%;
+	background: transparent;
+	height: 200px;
+	color: #FFFFFF;
+	margin-bottom: 5%;
+}
+.button{
+	width: 10%;
+	height: 40px;
+	background-color: #006699;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6%;
+	line-height: 40px;
+}
+.button a{
+	text-align: center;
+	color: #FFFFFF;
+}
+.bottom{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+	background-size: cover;
+
+}
+.com {
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-top: 2%;
+	text-align: center;
+}
+.com2 {
+	margin-left: 75%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+@media screen and (max-width: 1560px){
+	.head-menu{
+		display: none;
+	}
+		.two-slogo{
+	margin-top: -15%;
+	}
+}
+@media screen and (max-width: 800px){
+	.ikon{
+		text-align: right;
+		font-size: 0.8em;
+		display: block;
+		margin-top: -27%;
+	}
+	.two-slogo{
+	margin-top: -25%;
+}
+@media screen and (max-width: 530px){
+	.text-slogo h2{
+		font-size: 1.5em;
+	}
+		.text-logo h1{
+		font-size: 3em;
+	}
+	.two-slogo{
+	margin-top: -50%;
+	}
+	.two-slogo h4{
+	font-size: 1.5em;
+	}
+	.radius{
+		margin-bottom: 50%;
+	}
+	.two-slogo{
+		margin-bottom: 30%;
+	}
+	.three-slogo{
+		margin-top: -50%;
+	}
+	.three-plogo h4{
+	font-size: 1em;
+	}
+	.three-plogo{
+		margin-top: 15%;
+	}
+	.blog img{
+		margin-left: 10%
+	}
+	.button{
+	width: 20%;
+	}
+	.com2 {
+	margin-left: 20%;
+	}
+}
+@media screen and (max-width: 330px){
+	.two-slogo{
+	margin-top: -50%;
+	}
+	.two-slogo h4{
+	font-size: 1em;
+	}
+	.three-slogo{
+		margin-top: -60%;
+	}
+	.three-plogo{
+		margin-top: 20%;
+	}
+	.blog img{
+		margin-left: 5%
+	}
+}
